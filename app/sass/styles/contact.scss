@@ -1,0 +1,54 @@
+.contact {
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 640px;
+    &__forms {
+        &__top {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            &--checkbox {
+                display: flex;
+                align-items: center;
+                color: $blue;
+                font-family: 'Arial';
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+        &--style {
+            border: 1.8px solid $blue;
+            border-radius: 5px;
+            color: #34475c;
+            font-family: 'Raleway';
+            font-size: 14px;
+            font-weight: 600;
+            padding: 20px 0px 20px 20px;
+            outline: none;
+            &::placeholder {
+                margin: 0;
+                padding: 0;
+                color: #34475c;
+                font-family: 'Raleway';
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+        &--small {
+            width: 33.5%;
+            margin: 10px 20px;
+        }
+        &--large {
+            width: 100%;
+            padding-bottom: 115px;
+            &::placeholder {
+            }
+        }
+    }
+}

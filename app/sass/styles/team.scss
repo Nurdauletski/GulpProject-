@@ -1,0 +1,32 @@
+.team {
+    margin-top: 90px;
+}
+.swiper-slide {
+    margin: 0;
+    padding: 0;
+    &__team {
+    
+        &--img {
+            display: flex;
+            justify-content: center;
+            width: 90px;
+            height: 90px;
+             border-radius: 50%;
+             img {
+                 object-fit: cover;
+                 
+             }
+        }
+        &--comment {
+            margin: 0 auto;
+            text-align: center;
+            width: 650px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+.swiper-container_2 {
+    width: 350px;
+}

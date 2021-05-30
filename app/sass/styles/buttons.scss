@@ -1,0 +1,60 @@
+.header-button {
+    font-size: 15px;
+    min-width: 150px;
+    padding: 20px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0px 7px 5px 2px rgba(17, 191, 172, 0.93);
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    &--blue {
+        background: $blue;
+        color: $white;
+        &:hover {
+            background: darken($blue, 2%);
+        }
+    }
+    &--white {
+        background: $white;
+        color: $blue;
+        &:hover {
+            background: darken($white, 6%);
+        }
+    }
+}
+.green-button {
+    margin: 0 auto;
+    padding: 20px;
+    width: 140px;
+    background: $green;
+    color: $white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 6px 19px 0px rgba(224, 224, 224, 1);
+}
+.slider-button {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    &--top {
+        top:20px;
+        right: 175px;
+        img {
+            width: 100%;
+            object-fit: cover;
+            transform: scale(-1);
+        }
+    }
+    &--bottom {
+        bottom: 30px;
+        right: 175px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

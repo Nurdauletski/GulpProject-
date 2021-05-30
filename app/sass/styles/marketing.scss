@@ -1,0 +1,52 @@
+.marketing {
+    width: 100%;
+    display: flex;
+    &__item {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 0;
+        &--light_blue {
+            background: #80d8ff;
+        }
+        &--blue {
+            background: #82b1ff;
+        }
+        &--purple {
+            background: #b388ff;
+        }
+        &--light-purple {
+            background: #ea80fc;
+        }
+    }
+    &__icon {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: $white;
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__text {
+        margin-left: 20px;
+        &__sum {
+            font-size: 18x;
+            font-weight: 800;
+            color: #fff;
+            font-family: 'Raleway';
+        }
+        &__desc {
+            font-size: 18px;
+            font-weight: 800;
+            margin-top: 5px;
+            color: #fff;
+            font-family: 'Raleway';
+        }
+    }
+}

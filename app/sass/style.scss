@@ -1,0 +1,31 @@
+body {
+    height: 750px;
+    position: relative;
+    
+}
+.container {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+.btn-reset {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+@import '../fonts/Raleway-Regular.ttf';
+@import './styles/vars.scss';
+@import '../../node_modules/swiper/swiper.scss';
+@import './styles/header.scss';
+@import './styles/content.scss';
+@import './styles/marketing.scss';
+@import './styles/services.scss';
+@import './styles/comments.scss';
+@import './styles/team.scss';
+@import './styles/contact.scss';
+@import './styles/footer.scss';
+@import './styles/buttons.scss';
